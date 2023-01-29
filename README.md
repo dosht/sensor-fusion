@@ -4,6 +4,9 @@
 
 ```shell
 sbt "runMain com.luxoft.sensors.CatsJob data/"
+
+# Or run it as a spark job
+sbt "runMain com.luxoft.sensors.SparkJob data/"
 ```
 
 ## Generating test data
