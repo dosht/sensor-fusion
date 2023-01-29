@@ -2,17 +2,18 @@
 
 ## Running the application
 
-```bash
+```shell
 sbt "runMain com.luxoft.sensors.CatsJob data/"
 ```
 
 ## Generating test data
 
-```bash
+```shell
 ./generate_sensor_data.sh
 ```
 
 ## Running tests
-```
+
+```shell
 sbt test
 ```
